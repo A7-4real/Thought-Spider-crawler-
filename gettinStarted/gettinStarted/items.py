@@ -9,4 +9,5 @@ import scrapy
 class GettinstartedItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    author = scrapy.Field()
+    quote = scrapy.Field()
